@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="todo.js"></script>
+
+</head>
+<body>
+    <div class=" row container p-2 ms-3" style="width: 300px; ">
+        <h1>TODO</h1>
+        <input type="text" id="uname" class="" placeholder="user_name">
+        <input type="text" id="tname" class=" " placeholder="task_name">
+        <input type="text" id="completed" class=" " placeholder="status_completed">
+       
+        <button type="button" style="background: blue;" onclick="createtodo()">CreateTodo</button>
+    </div>
+    
+    <div class="row p-2 ms-3 " style="width: 300px;">
+        <input type="text" id="search" placeholder="search_details">
+        <button type="button " style="background: blue;" onclick="find_details()">Search</button>
+    </div>
+    <div class="display mt-2" id="display">
+
+    </div>
+    <div class=" list mt-2 ms-5" >
+        <button type="submit " style="background: darkviolet;" onclick="all_details()">List All Details</button>
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,84 @@
+.first{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 1500px;
+    border: 10px solid red;
+    margin-left: 75px;
+    border-style: groove;
+    padding: 60px; 
+}
+.int{
+    background-color: white;
+    margin-top: 20px;
+}
+.pic{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.for{
+    background-color: white;
+    color: darkblue;
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+.get{
+    color:blue;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.num{
+    margin-top: 20px;
+}
+.email{
+    margin-top: 20px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.location{
+    margin-top: 20px;
+}
+
+.pi{
+    color: blue;
+    text-decoration: underline;
+}
+.gasb{
+    color: blue;
+    text-decoration: underline;
+}
+.ability{
+    color: blue;
+    text-decoration: underline;
+}
+.hai{
+    color: blue;
+    text-decoration: underline;
+}
+.co{
+    color: blue;
+    text-decoration: underline;
+    margin-top: 100px;
+}
+.en{
+    color: blue;
+    text-decoration: underline;
+}
+.cmp{
+    color:blue;
+    text-decoration: underline;
+}
+.dcl{
+    color: blue;
+    text-decoration: underline;
+}
+.sign{
+margin-left: 90px;
+}
+.name{
+margin-left: 90px;
+}

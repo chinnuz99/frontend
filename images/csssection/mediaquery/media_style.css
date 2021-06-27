@@ -1,0 +1,19 @@
+.row{
+    width: 100%;
+    height: 600px;
+    background-color: yellowgreen;
+}
+.col{
+    max-width: 400px;
+    height: 300px;
+    background-color: rgb(34, 48, 178);
+
+}
+@media(max-width:450px) {
+    .col{
+        background-color: maroon;
+        color: mediumseagreen;
+        text-align: center;
+    }
+    
+}

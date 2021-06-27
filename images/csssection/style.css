@@ -1,0 +1,43 @@
+/* tagname or id or classname{
+    property:value;
+    property2:value2;
+
+    propertyyn:valuen;
+}*/
+body{
+    background-image:url("../pexels-janko-ferlic-590493.jpg");
+
+}
+
+#mainhead{
+    color:#050008;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+.book-name{
+    color:#dee94a;
+    text-decoration: underline;
+}
+.novel{
+    color:#dee94a;
+
+}
+.movie{
+    color:black;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    width: 22%;
+    text-align:center;
+    float: left;
+    height: 430px;
+    margin-right: 10px;
+    margin-top: 50px;
+    padding:10px;
+
+}
+.content{
+    text-align: justify;
+    line-height: 30px;
+}

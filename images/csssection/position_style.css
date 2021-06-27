@@ -1,0 +1,29 @@
+div{
+    width:300px;
+    height:200px;
+    border:1px solid black;
+}
+.parent{
+    width: 80%;
+    height: 210px;
+    background-color: darkturquoise;
+    border: 1px solid black;
+    position:relative;
+    left:50px;
+    margin-top: 20px;
+}
+.first{
+    background-color: cadetblue;
+}
+.second{
+    background-color: darkblue;
+    position: absolute;
+    left: 313px;
+    top: 0;
+}
+.third{
+    background-color: darkgoldenrod;
+    position: absolute;
+    top: 0;
+    left: 626px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./styletwo.css">
+    <script src="https://kit.fontawesome.com/d56d18e9db.js" crossorigin="anonymous"></script>
+    <script src="./scripttwo.js"></script>
+</head>
+
+<body class="int">
+    <div class="container">
+        <h1>Calculator</h1>
+        <div class="first_row">
+            <input type="text" class="result" id="reslt">
+        </div>
+        <div class="second_row">
+            <button class="C fs-4 p-1" onclick="clearbox()">C</button>
+            <button class="clr fs-4 p-1" onclick="removeElement()"><</button>
+
+        </div>
+        <div class="second_row ">
+            <button class="btn-1 fs-3 p-1"onclick="display_value('1')">1</button>
+            <button class="btn-2 fs-3 p-1"onclick="display_value('2')">2</button>
+            <button class="btn-3 fs-3 p-1"onclick="display_value('3')">3</button>
+            <button class="btn-4 fs-3 p-1"onclick="display_value('+')">+</button>
+
+        </div>
+        <div class="third_row ">
+            <button class="btn-1 fs-3 p-1"onclick="display_value('4')">4</button>
+            <button class="btn-2 fs-3 p-1"onclick="display_value('5')">5</button>
+            <button class="btn-3 fs-3 p-1"onclick="display_value('6')">6</button>
+            <button class="btn-4 fs-3 p-1"onclick="display_value('-')">-</button>
+        </div>
+        <div class="fourth_row ">
+            <button class="btn-1 fs-3 p-1"onclick="display_value('7')">7</button>
+            <button class="btn-2 fs-3 p-1"onclick="display_value('8')">8</button>
+            <button class="btn-3 fs-3 p-1"onclick="display_value('9')">9</button>
+            <button class="btn-4 fs-3 p-1"onclick="display_value('*')">*</button>
+        </div>
+        <div class="fifth_row ">
+            <button class="btn-1 fs-3 p-1"onclick="display_value('/')">/</button>
+            <button class="btn-2 fs-3 p-1"onclick="display_value('0')">0</button>
+            <button class="btn-3 fs-3 p-1"onclick="display_value('.')">.</button>
+            <button class="btn-4 fs-3 p-1"onclick="evaluateExpression()">=</button>
+        </div>
+        <div class="sixth_row">
+            <button class="git_button ">
+                <i class="fab fa-1x fa-github "></i>GitHub
+            </button>
+            <button class="dark">Dark Mode
+                <i class="fas fa-moon" style="color: yellow"></i> 
+            </button>
+
+        </div>  
+
+
+    </div>
+
+
+</body>
+
+</html>

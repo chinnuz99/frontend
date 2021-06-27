@@ -1,0 +1,72 @@
+.int{
+    background-color:lightcoral;
+    text-align: center;
+    margin-left: 1px;
+}
+.container{
+    color: white;
+    margin-top: 100px;
+}
+.result{
+    background-color: white;
+    width: 180px;
+    height: 60px;
+    border: none;
+    padding-right: 90px;
+}
+.C{
+    background-color: red;
+    width: 135px;
+    height: 60px;
+    border: none;
+}
+.clr{
+    background-color:lightslategrey;
+    width: 135px;
+    height: 60px;
+    border: none;  
+}
+.btn-1{
+    background-color: white;
+    width: 65px;
+    height: 60px;
+    border: none;
+    margin-top: 3px;
+}
+.btn-2{
+    background-color: white;
+    width: 65px;
+    height: 60px;
+    border: none;
+}
+.btn-3{
+    background-color: white;
+    width: 65px;
+    height: 60px;
+    border: none; 
+}
+.btn-4{
+    background-color: white;
+    width: 65px;
+    height: 60px;
+    border: none;
+}
+.git_button{
+    background-color: black;
+    color: white;
+    float: left;
+    margin-left: 540px;
+    padding: 4px;
+    margin-top: 3px;
+    border: none;
+}
+.dark{
+    background-color: black;
+    color: white;
+    float: right;
+    margin-right: 650px;
+    padding: 4px;
+    margin-top: 3px;
+    border: none;
+
+}

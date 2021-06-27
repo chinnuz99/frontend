@@ -1,0 +1,64 @@
+.str {
+    background-color:rgb(95, 8, 146);
+    height: 50px;
+}
+.nav-1{
+    margin-left: 70px;
+    text-decoration: none;
+    font-size: small;
+    
+}
+
+.nav-2 {
+    float: right;
+    
+    font-size: medium;
+    margin-left: 5px;
+    text-decoration: none;
+
+}
+
+.nav-item{
+    border: none;
+    
+}
+.int{
+    background-color: black;
+}
+.head{
+    margin-top: 100px;
+    margin-right: 300px;
+    
+}
+.btn{
+    height: 50px;
+}
+
+.title{
+    display:flex;
+    flex-direction: row;
+
+}
+ 
+ .title-1{
+     color: #6f0bb1;
+ }
+ .title-2{
+     color: violet;
+ }
+ .content{
+     line-height: 20px;
+     color:rgb(117, 114, 114);
+ } 
+
+
+.our{
+    margin-left: 520px;
+   
+}
+.course{
+    display: flex;
+   align-items: flex-start;
+   margin-right: 520px;
+   
+}

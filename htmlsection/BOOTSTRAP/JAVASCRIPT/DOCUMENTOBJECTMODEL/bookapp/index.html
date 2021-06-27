@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <!--- bookname,author,price,pages--   [bookname,book]-->
+    <div class=" row container p-2 ms-3" style="width: 300px;">
+        <h1>BOOKGALLERY</h1>
+        <input type="text" id="b_name" class="book mb-3" placeholder="book_name">
+        <input type="text" id="b_author" class=" athr mb-3" placeholder="author">
+        <input type="text" id="pages" class=" ps mb-3" placeholder="page">
+        <input type="text" id="price" class=" prce mb-3" placeholder="amount">
+        <button type="button" onclick="createbook()">Createbook</button>
+    </div>
+    <div class="row p-2 ms-3 " style="width: 300px;">
+        <input type="text" id="search" placeholder="search_book">
+        <button type="button" onclick="findbook()">Search</button>
+    </div>
+    <div class="mt-2" id="result"></div>
+
+    <div class="mt-2 ms-3" >
+        <button type="submit" onclick="allbooks()">List All Books</button>
+    </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
